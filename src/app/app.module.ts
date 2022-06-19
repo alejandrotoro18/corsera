@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { SharedModule } from './shared/shared.module';
 import { GifsModule } from './gifs/gifs.module';
+import { GifspageComponent } from './gifs/gifspage/gifspage.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule,SharedModule,GifsModule],
+  imports:      [ BrowserModule, FormsModule,SharedModule,GifsModule,GifspageComponent],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })

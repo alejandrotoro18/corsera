@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { GifspageComponent } from './gifspage/gifspage.component';
 
 @NgModule({
+  exports: [
+    GifspageComponent
+  ],
   imports: [
     CommonModule
   ],

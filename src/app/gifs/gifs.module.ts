@@ -6,6 +6,7 @@ import { GifspageComponent } from './gifspage/gifspage.component';
   imports: [
     CommonModule
   ],
+  exports:[GifspageComponent],
   declarations: [GifspageComponent]
  
 })
